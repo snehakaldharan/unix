@@ -1,0 +1,41 @@
+created a directory using mkdir using a filename
+used vim and a file name to test the commands
+vim editor has mainly 2 modes:
+insert mode:the elemnts can be inserted using this mode by clicking the insert button or A in the keyword
+command mode:to enter the mode we need to press esc
+x-to delete the unwanted character 
+u-to undo the last command and U to undo the whole line
+CTLR-R to redo
+A-to append text at the end
+:wq-to save nad exit
+:q!-to trash all the changes
+dw:-move th ecurser to the begining of the word to delete  that word
+2w-to move th e cursor two words forward
+3e-to m ove the cursor to the end of the third word forwrad
+0-to move to the start of the line
+d2w-which deletes two words..
+dd to delete the line and 2dd to delete to line number can be changed for delting the number of consecutive words
+p-puts the previously deleted text after the cursor 
+r-to replace th eletter 
+ce-
+to change until the end of a word
+ce-
+delets the word and places you in the file 
+G-to move you to the bottom of the file
+gg-to move you to the start of the file
+% to find a matching
+:s/old/new/g to substitute 'new' for 'old' where g is globally
+/backwad search n to find the next occurance 
+?forward serach
+:!to run the shell commands 
+:w-test 
+v-starts visualmode for selecting the lines and you can perfrom operations 
+:r-filename will insert the contents into the current file
+R-to replace more than one character
+O-opens a line above the cursor
+a-inserts text after the cursor
+A-inserts text after the end of a word
+e-command moves to the end of a word
+Y-operator yanks
+R-enters replace mode until<ESC>is pressed
+ctrl-w to jump from one window to another
